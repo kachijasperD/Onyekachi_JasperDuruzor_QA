@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="invalid_Test" time="46" tests="1" failures="0" errors="0">
+   <testsuite name="invalid_Test" tests="1" failures="0" errors="0" time="46" timestamp="2019-05-22 14:41:22" hostname="onyekachi.jasper - Kachi.arca.local" id="Test Suites/invalid_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\onyekachi.jasper\\Katalon Studio\\Ormuco_QA_Test\\Reports\\invalid_Test\\20190522_144119"/>
+         <property name="logFiles" value="C:\\Users\\onyekachi.jasper\\Katalon Studio\\Ormuco_QA_Test\\Reports\\invalid_Test\\20190522_144119\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="onyekachi.jasper - Kachi.arca.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.157"/>
+         <property name="hostAddress" value="192.168.200.121"/>
+         <property name="sessionId" value="ff6465b1690d23eeb20324cb038c3bbd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Invaild_Credentials" classname="Test Cases/Invaild_Credentials" status="PASSED">
+         <system-out><![CDATA[2019-05-22 14:41:22 - [TEST_CASE][PASSED] - Test Cases/Invaild_Credentials: Test Cases/Invaild_Credentials
+
+2019-05-22 14:41:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 14:41:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-22 14:41:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-22 14:41:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 14:41:27 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.ormuco.com/login"): Navigate to 'https://uat.ormuco.com/login' successfully
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Navigate to 'https://uat.ormuco.com/login' successfully
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 2)): Text '12345675432' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Text '12345675432' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:51 - [TEST_STEP][NOT_RUN] - waitForElementClickable(findTestObject("invalid_test_case/Page_Portal - Ormuco/input__password"), 60): NOT_RUN: waitForElementClickable(findTestObject("invalid_test_case/Page_Portal - Ormuco/input__password"), 60)
+
+2019-05-22 14:41:51 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementClickable(findTestObject("invalid_test_case/Page_Portal - Ormuco/input__password"), 60)
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 2)): Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - click(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 3)): Text 'sdfghgf12345675433' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Text 'sdfghgf12345675433' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 3)): Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - click(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 4)): Text '!@%^#@$#%^$@#$' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Text '!@%^#@$#%^$@#$' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 4)): Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:52 - [MESSAGE][PASSED] - Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:53 - [TEST_STEP][PASSED] - click(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 5)): Text 'sdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfydfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfyvubitcrexrtdcfyvubiuyctcrfyvubvub' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:55 - [MESSAGE][PASSED] - Text 'sdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfydfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfyvubitcrexrtdcfyvubiuyctcrfyvubvub' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 5)): Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:55 - [MESSAGE][PASSED] - Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:55 - [TEST_STEP][PASSED] - click(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 6)): Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:56 - [MESSAGE][PASSED] - Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 6)): Text 'asdfghjkhjgfd' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:56 - [MESSAGE][PASSED] - Text 'asdfghjkhjgfd' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 7)): Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 7)): Text '1.23E+11' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Text '1.23E+11' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:41:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 8)): Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:59 - [MESSAGE][PASSED] - Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:41:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 8)): Text 'jhgfd12345675433' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:59 - [MESSAGE][PASSED] - Text 'jhgfd12345675433' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:41:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:41:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 9)): Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 9)): Text '!@%^#@$#%^$@#$' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Text '!@%^#@$#%^$@#$' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:02 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 10)): Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:02 - [MESSAGE][PASSED] - Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:02 - [TEST_STEP][PASSED] - setText(findTestObject("invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 10)): Text 'sdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfydfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfyvubitcrexrtdcfyvubiuyctcrfyvubvub' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:03 - [MESSAGE][PASSED] - Text 'sdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfydfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubdfghbjsexdrcftvgybhuyftrsexrdctfvygbuhbyftresdtcfyguhivctxrdtcfyvgubhihcxertcyvubiytyrcextrcyvubitcrexrtdcfyvubiuyctcrfyvubitcrexrtdcfyvubiuyctcrfyvubvub' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:03 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 11)): Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:05 - [MESSAGE][PASSED] - Text 'ojasperduruzor@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 11)): Text 'qwertyuiopa' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:05 - [MESSAGE][PASSED] - Text 'qwertyuiopa' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username"), findTestData("Invalid_Credentials").getValue(1, 12)): Text 'ojasperduruzo@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Text 'ojasperduruzo@gmail.com' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__username'
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password"), findTestData("Invalid_Credentials").getValue(2, 12)): Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Text 'qwertyuiopas' is set on object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/input__password'
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/button_Sign in' is clicked on
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:06 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is clicked on
+
+2019-05-22 14:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i"), 120): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is present
+
+2019-05-22 14:42:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Spyweb1/Page_Portal - Ormuco/span_The user or password is i")): Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Spyweb1/Page_Portal - Ormuco/span_The user or password is i' is visible
+
+2019-05-22 14:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid_test_case/Page_Portal - Ormuco/label__d-block p_relative f_ic")): Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/label__d-block p_relative f_ic' is clicked on
+
+2019-05-22 14:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid_test_case/Page_Portal - Ormuco/label__d-block p_relative f_ic' is clicked on
+
+2019-05-22 14:42:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("invalid_test_case/Page_Portal - Ormuco/label__d-block p_relative f_ic"), 120): Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/label__d-block p_relative f_ic' is present
+
+2019-05-22 14:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/invalid_test_case/Page_Portal - Ormuco/label__d-block p_relative f_ic' is present
+
+2019-05-22 14:42:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-22 14:42:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-22 14:41:22 - [TEST_SUITE][PASSED] - invalid_Test: Test Cases/Invaild_Credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
